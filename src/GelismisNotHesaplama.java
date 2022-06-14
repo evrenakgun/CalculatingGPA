@@ -4,27 +4,6 @@ import java.util.Scanner;
 
 public class GelismisNotHesaplama {
     public static void main(String[] args) {
-        /*
-        -Kullanıcıdan vize1, vize2 ve final notlarını alarak bir harf hesaplama
-        sistemi yapın.
-        -Ayrıca kullanıcıdan okuldaki genel not ortalamasını alarak, DD alma ve
-        2.50' nin altında olma koşuluna göre ekrana bir tavsiye mesajı yazdır.
-        
-        -Vize1 toplam notun %30'una etki edecek.
-        -Vize2 toplam notun %30'una etki edecek.       
-        -Final toplam notun %40'ına etki edecek.
-        
-        Not >= 90 : AA
-        Not >= 85 : BA
-        Not >= 80 : BB
-        Not >= 75 : CB
-        Not >= 70 : CC
-        Not >= 65 : DC
-        Not >= 60 : DD
-        Not >= 55 : FD
-        Not <  55 : FF
-        */
-        
         Scanner scanner = new Scanner(System.in);
         
         double vize1 = -1;
