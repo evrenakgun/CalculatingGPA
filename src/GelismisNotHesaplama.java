@@ -98,9 +98,6 @@ public class GelismisNotHesaplama {
             System.out.println("Your gpa is " + gpa + "(FF). Hopeless case!");
             
         }
-        else {
-            System.out.println("You enter an invalid score. Please check your score and try again.");
-        }
             
         while (wgpa < 0 || wgpa > 4){    
         System.out.print("Please enter your weighted grade point average: ");
